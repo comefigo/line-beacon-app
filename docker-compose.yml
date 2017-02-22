@@ -4,7 +4,10 @@ services:
     build: ./
     image: linebot-web
     ports: 
-      - "80:3000"
+      - "3000:3000"
     volumes: 
       - "./web:/usr/local/linebot"
     container_name: linebot-web
+    environment: 
+      - CHANNEL_SECRET=<SECRET>
+      - CHANNEL_ACCESS_TOKEN=<TOKEN>
