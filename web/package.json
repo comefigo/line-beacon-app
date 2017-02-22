@@ -1,0 +1,22 @@
+{
+  "name": "line-bot-server",
+  "version": "1.0.0",
+  "description": "web hook server for line bot",
+  "main": "app.js",
+  "scripts": {
+    "start": "node ./app.js"
+  },
+  "keywords": [
+    "line",
+    "bot",
+    "line-bot",
+    "chat",
+    "beacon",
+    "iot"
+  ],
+  "author": "sh.watanabe",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.14.1"
+  }
+}
